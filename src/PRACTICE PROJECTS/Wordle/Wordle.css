@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#wordle-word-main-div {
+    margin-left: 527px;
+    width: 462px;
+    height: 401px;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.5);
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-div {
+    display: flex;
+}
+
+.word-h {
+    text-align: center;
+    font-size: 28px;
+    padding: 4px;
+    margin: 9px;
+    width: 45px;
+    height: 45px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+
+.greenBg{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+.redBg{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.yellowBg{
+    background-color: yellow;
+    color: white;
+    font-weight: bolder;
+}
+
+.transparentBg{
+    background-color: white;
+}
+
+#main-h{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 19px;
+}

@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Wordle from './PRACTICE PROJECTS/Wordle/Wordle';
+import Main from './PRACTICE PROJECTS/Expense Tracker/Main';
+import { ToastContainer } from 'react-toastify';
+import Error from './PRACTICE PROJECTS/Expense Tracker/Error';
+import CreateBudget from './PRACTICE PROJECTS/Expense Tracker/CreateBudget';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+           <Wordle/>
+        </div>
+    );
 }
 
 export default App;
