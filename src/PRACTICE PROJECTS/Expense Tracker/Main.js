@@ -1,6 +1,5 @@
 import { ToastContainer, toast } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
-import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Dashboard from "./Dashboard";
 
@@ -23,16 +22,15 @@ function Main() {
         let value = e.target.value
         setUsername(value)
     }
-
+    
     function createAccount() {
+        toast.info("User has been logged in")
         localStorage.setItem("Username", JSON.stringify(username))
     }
 
     return (
         <div id="ex-tracker-main-div">
-      
          <Dashboard  logoutTheUser={logoutTheUser} handleUsername={handleUsername} createAccount={createAccount} />
-       
         </div>
     )
 }
