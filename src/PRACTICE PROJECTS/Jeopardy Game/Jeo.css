@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ques-individual-div {
+ box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+ margin-left: 40px;
+ margin-top: 64px;
+    text-align: center;
+}
+
+#jeo-main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.buttons-div{
+    margin-top: 29px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 35px;
+}
+
+.options-b{
+    margin-left: 13px;
+    margin-bottom: 7px;
+width: 163px;
+height: 34px;
+color: black;
+background-color: white;
+outline: none;
+}
+
+.ques-h{
+    font-size: 21px;
+    margin-top: 7px;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
